@@ -1,7 +1,8 @@
 import GoogleMobileAds
 
-class GoogleMultiAds {
-    func initNetwork() {
+public class GoogleMultiAds {
+    public init() {}
+    public func initNetwork() {
         MobileAds.shared.start { status in
              // Optional: Log each adapter's initialization latency.
              let adapterStatuses = status.adapterStatusesByClassName
