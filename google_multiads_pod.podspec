@@ -21,6 +21,6 @@ A modular SwiftUI ad helper that supports Google AdMob, AppLovin, and mediation,
 
   # Subspec for ad-related SDKs
   s.dependency 'Google-Mobile-Ads-SDK','~> 12.5.0'
-    s.dependency 'GoogleMobileAdsMediationAppLovin','~> 11.7.1.0'
+    s.dependency 'GoogleMobileAdsMediationAppLovin','~> 13.3.0.0'
 
 end
