@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'google_multiads_pod'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A SwiftUI-compatible multi-ad integration module.'
 
   s.description      = <<-DESC
