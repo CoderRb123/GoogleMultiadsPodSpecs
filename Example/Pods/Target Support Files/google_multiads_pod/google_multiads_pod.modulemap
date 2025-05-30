@@ -1,0 +1,6 @@
+framework module google_multiads_pod {
+  umbrella header "google_multiads_pod-umbrella.h"
+
+  export *
+  module * { export * }
+}

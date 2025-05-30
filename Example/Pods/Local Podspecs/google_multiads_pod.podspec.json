@@ -1,0 +1,27 @@
+{
+  "name": "google_multiads_pod",
+  "version": "0.1.0",
+  "summary": "A short description of google_multiads_pod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/CoderRb123/google_multiads_pod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CoderRb123": "44895678+CoderRb123@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/CoderRb123/google_multiads_pod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "16.0"
+  },
+  "source_files": "google_multiads_pod/Classes/**/*",
+  "dependencies": {
+    "Google-Mobile-Ads-SDK": [],
+    "GoogleMobileAdsMediationAppLovin": []
+  },
+  "static_framework": true
+}

@@ -1,0 +1,6 @@
+framework module Pods_google_multiads_pod_Tests {
+  umbrella header "Pods-google_multiads_pod_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
