@@ -12,7 +12,7 @@ A modular SwiftUI ad helper that supports Google AdMob, AppLovin, and mediation,
   s.author           = { 'coderrb' => 'devloperrb73375@gmail.com' }
 
   # Use local path for linting instead of a Git source
-  s.source           = { :path => '.' }
+  s.source = { :git => 'https://github.com/CoderRb123/GoogleMultiadsPodSpecs.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '16.0'
   s.static_framework = true
@@ -20,7 +20,7 @@ A modular SwiftUI ad helper that supports Google AdMob, AppLovin, and mediation,
   s.source_files = 'google_multiads_pod/Classes/**/*'
 
   # Subspec for ad-related SDKs
-  s.dependency 'Google-Mobile-Ads-SDK'
-    s.dependency 'GoogleMobileAdsMediationAppLovin'
+  s.dependency 'Google-Mobile-Ads-SDK','~> 12.5.0'
+    s.dependency 'GoogleMobileAdsMediationAppLovin','~> 11.7.1.0'
 
 end
