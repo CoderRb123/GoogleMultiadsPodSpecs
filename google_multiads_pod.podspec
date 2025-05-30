@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'google_multiads_pod'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A SwiftUI-compatible multi-ad integration module.'
 
   s.description      = <<-DESC
@@ -21,6 +21,6 @@ A modular SwiftUI ad helper that supports Google AdMob, AppLovin, and mediation,
 
   # Subspec for ad-related SDKs
   s.dependency 'Google-Mobile-Ads-SDK','~> 12.5.0'
-    s.dependency 'GoogleMobileAdsMediationAppLovin','~> 13.3.0.0'
+    s.dependency 'GoogleMobileAdsMediationUnity','~> 4.14.2.0'
 
 end
